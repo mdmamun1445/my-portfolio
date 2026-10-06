@@ -291,7 +291,7 @@ img {
 
 .hero-label,
 .section-label {
-    color: var(--accent);
+     color: var(--accent-light);
 
     font-size: 12px;
     font-weight: 700;

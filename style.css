@@ -49,3 +49,16 @@
   opacity: 0.85;
 }
 
+/* Fix Web Design Service Card Width */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.services-grid .service-card {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
